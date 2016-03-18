@@ -1,0 +1,31 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 a {
+	
+	font-weight: "Thin";
+	font-size: 100px;
+	color: #f9D471;
+}
+
+h2{
+	color:black;
+	font-size:25px;
+}
+
+h3 {
+	color:lightgrey;
+}
+h4 {
+	text-align: right;
+	color: #f9D471;
+}
+p {
+	font-size:20;
+	color: darygrey;
+} 
+p : :first-letter {
+	font-size:200%;
+	color: grey;
+}
