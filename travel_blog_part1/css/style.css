@@ -1,31 +1,126 @@
-body {
-	font-family: 'Roboto', sans-serif;
+* {
+	box-sizing: border-box;
 }
 
-h1 a {
+a{
+	text-decoration: none;
+}
+body {
+	font-family: 'lato', sans-serif;
+}
+
+ul {
+	padding-left: 0;
+}
+span {
+	font-weight: bold;
+}
+
+
+nav li{
+	list-style:none;
+	padding:10px 0 10px 0;
+	text-align:center;
+	background-color: #ddddde;
+	float:left;
+	width:16.66%;
+	font-size:20px;
+	border-right:1px solid white;
+}
+
+nav li a {
+	color:white;
 	
-	font-weight: "Thin";
-	font-size: 100px;
+}
+
+h1 a{
+	font-size: 40px;
+	font-weight: 300;
 	color: #f9D471;
+
+}
+
+h4 a{
+	
+	font-size: 15px;
+	color: #f9D471;
+	text-align: right;
+	font-weight: 700;
 }
 
 h2{
 	color:black;
 	font-size:25px;
+
+}
+
+h2 a {
+	color: black;
+	text-decoration: 0;
 }
 
 h3 {
 	color:lightgrey;
+
 }
+
 h4 {
+	color:black;
 	text-align: right;
+}
+
+p {
+	font-size:20px;
+	color: grey;
+} 
+section p:first-letter {
+	display: block;
+	float :left;
+	font-size: 3em;
+	line-height: 0.9em;
+}
+
+section img{
+	max-width:100%;
+
+}
+section {
+width:60%;
+float:left;
+padding-right: 30px;
+}
+
+aside p a {
+	;
+	color:#f9D471;
+}
+.more {
+	text-align: right
+}
+
+aside {
+width:30%;
+float:left;
+padding-left: 30px;
+}
+aside h4{
+	color:grey;
+	text-align: left;
+}
+
+aside a{
+	text-align: right;
+}
+
+aside li a{
+	
 	color: #f9D471;
 }
 p {
-	font-size:20;
-	color: darygrey;
-} 
-p : :first-letter {
-	font-size:200%;
-	color: grey;
+	clear: both;
+
+}
+
+footer a{
+	color:#f9D471;
 }
