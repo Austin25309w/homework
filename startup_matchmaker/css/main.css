@@ -3,7 +3,7 @@
    ========================================================================== */
    * {
     box-sizing: border-box;
-    border: 1px solid red;
+    border: px solid red;
   }
 
   .clearfix:after {
@@ -33,65 +33,165 @@
 ================================================================ */
 body {
   /* Set some defaults! font-family, font-size, color, etc. */
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+
 }
 
 /* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
 ================================================================ */
-a {
-  color:#ffffff;
-}
-header{
-  background-color: #3b3a3a;
-}
-header li {
-  display:inline-block;
-}
+
 
 /* Set some default styles for anchors (color, text decoration) */
 
 /* Layout (columns, floats, etc.)
 ================================================================ */
-h1 {
-  float:left;
 
-}
 
 .blurb {
-
-  width:40%;
-
-}
-
-nav {
+  padding: 10px 40px 10px 40px;
   float:right;
+  margin-top:180px;
+  margin-right: 10px;
+  
 }
+
+.blurb h2{
+  font-size: 25px
+}
+
+.blurb a{
+  background-color:#ff0000;
+  color:#ffffff;
+  display: block;
+  padding-top, border-bottom: 30px;
+  font-size: 20px
+
+
+}
+
+
 
 .banner {
   width:100%;
   background-image: url(../images/coworking.jpg);
+  background-size: cover;
+  background-position:center, center;
+  background-repeat: no-repeat;
+  height: 475px;
+
 }
 .tagline {
+  font-family: 
+  font-size: 25px;
   text-align:center;
+  background-color: #D4E1DB;
+  margin: 0px;
+  padding: 10px;
+  font-family: "Merriweather italic", serif;
+  font-style:italic;
+  font-weight: bold;
 }
 
 .info {
   width:33.33%;
   float:left;
+  color:#3b3a3a;
+  padding: 25px 25px 25px 25px;
+  border-right: 1px solid #D8d8d8;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
+
+.info a{ 
+  color:#3b3a3a;
+  display: block;
+  background-color: #D4E1DB
+
+
+
+}
+
+.info h3 {
+  font-size: 25px;
+}
+
+
+
+div{
+  width:50%;
+  background-color: rgba(255,255,255, 0.5);
 }
 /* Header
 ================================================================ */
+a {
+  color:#ffffff;
+  text-decoration: none;
+}
+header{
+  background-color: #3b3a3a;
+  line-height: 1.375em;
+  border-bottom: 3px solid #FEDB0D;
+  
+}
+header li {
+  display:inline-block;
+  font-size: 20px;
+  word-spacing: 7px;
 
+}
 
+h1 {
+  float:left;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 30px
+  padding:5px;
+  margin-left: 20px;
+}
 
 /* Footer
 ================================================================ */
-
+footer p {
+  clear: both;
+  background-color: #3b3a3a;
+  color:#ffffff;
+  font-size: 20px;
+  padding: 20px;
+}
 
 
 /* Navigation
 ================================================================ */
+nav{
+  float:right;
 
+}
+
+nav a{
+  width:140px;
+  display: block;
+  text-align: center;
+  margin-left: 10px;
+
+  padding:0px;
+  margin:-1px;
+  font-weight:thin; 
+}
+
+nav strong {
+  font-family: "Oswald", sans-serif;
+}
 
 
 /* Buttons
-   ================================================================ */
+================================================================ */
+.button {
+  text-align: center;
+  font-family: "Oswald";
+  border-radius: 5px;
+  box-shadow: 0px 3px 12px #888888;
+  padding: 10px;
+  font-size: 20px
+}

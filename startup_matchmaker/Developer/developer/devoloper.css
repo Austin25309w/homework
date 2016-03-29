@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    border: px solid red;
+  }
+
+  .clearfix:after {
+    display: table;
+    clear: both;
+    content: "";
+  }
+
+body {
+  /* Set some defaults! font-family, font-size, color, etc. */
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+
+}
+
+
+  
+
+a {
+  color:#ffffff;
+  text-decoration: none;
+}
+header{
+  background-color: #3b3a3a;
+  line-height: 1.375em;
+  border-bottom: 3px solid #FEDB0D;
+  
+}
+header li {
+  display:inline-block;
+  font-size: 20px;
+  word-spacing: 7px;
+
+}
+
+h1 {
+  float:left;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 30px
+  padding:5px;
+  margin-left: 20px;
+}
