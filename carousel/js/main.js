@@ -44,34 +44,21 @@ $('#prev').on('click', function() {
 
 // */var 
 var counter = 0;
-$("#upvote").click(function() {
+	$("#upvote").click(function() {
 	counter ++;
 	$('#votes').html('Likes: ' + counter);
 });
 
 
-$("#downvote").click(function() {
+	$("#downvote").click(function() {
 	counter --;
 	$("#votes").html('Likes: ' + counter);
 
 });
 
+var votes = ["images/image_1.jpg", "images/image_2.jpg","images/image_3.jpg","images/image_4.jpg","images/image_5.jpg","images/image_6.jpg"];
 
 
-// 	votes += 1;
-// 	if(votes === 0) {
-// 		$('#upvote')
-// 		}
-// 	else
-
-// 	}
-// 	currentPosition += 1;
-// 	$('#votes').
-// });
-
-// $('#downvote').on('click', function () {
-
-// })
 //remove from the like of the current image when user clicks the thumbs down.
 
 
